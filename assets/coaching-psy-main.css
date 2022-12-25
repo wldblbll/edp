@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/css?family=ABeeZee:300,400,700&display=swap";
+
+.page-container h1,
+.page-container h2,
+.page-container h3,
+.page-container h4,
+.page-container h5,
+.page-container h6 {
+    color: #313032;
+    font-family: 'ABeeZee', sans-serif;
+}
+.page-container p,
+.page-container ul li,
+.page-container small {
+    color: #313032;
+    font-family: 'ABeeZee', sans-serif;
+}
+.countdown .countdown-amount,
+.countdown .countdown-period,
+.btn-shadow {
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.btn-shadow {
+    background: #F8F000;
+    font-family: 'ABeeZee', sans-serif;
+    color: #000000;
+}
+.btn-shadow:before {
+    content: "\f14a";
+    font-size: 31px !important;
+    margin-right: 5px;
+}
+.btn-shadow i.fa {
+    font-size: 31px !important;
+    color: inherit;
+    margin-right: 5px;
+}
+.btn-shadow:hover i.fa,
+.btn-shadow:focus i.fa {
+    color: #000000;
+}
+
+#line-footer {
+    background: #232233;
+}
+.bloc-footer a {
+    color: white;
+}

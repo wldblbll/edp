@@ -1,0 +1,258 @@
+#line-header {
+    padding-top: 20px;
+    padding-bottom: 175px;
+}
+#line-header .bloc-line-header-bg-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url('images/banner-coach.jpg');
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.separator {
+    background:#313032;
+}
+
+#col1-1 .colcontainer {
+    padding-top: 85px;
+}
+#line2 {
+    padding-top: 40px;
+}
+#line2-section3 {
+    padding-bottom: 77px;
+}
+#col2-1 .colcontainer {
+    padding-bottom: 100px;
+}
+
+#col2-2 .colcontainer {
+    margin-top: 125px;
+}
+
+#col2-3 .colcontainer {
+    margin-top: 10px;
+}
+
+#col-price .col {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 5px 5px 44px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    background-color: white;
+}
+
+#col-price .colcontainer {
+    padding: 40px;
+}
+
+
+#line3 {
+    background: #232233;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+#col3-1 .colcontainer {
+    padding-top: 136px;
+    margin-bottom: 10px;
+}
+#testimonials {
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+#line4 {
+    padding-top: 90px;
+}
+
+#line8 {
+    padding-top: 75px;
+}
+#col-coach-image {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#col-coach-image .colcontainer {
+    margin-right: 33px;
+}
+
+#col-coach-shadow {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#col-coach-shadow .colcontainer {
+    margin-bottom: 50px;
+    padding: 50px;
+}
+#col-coach-shadow .col {
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    box-shadow: 5px 5px 44px rgba(0, 0, 0, .25);
+    z-index: 1;
+    background-color: white;
+}
+
+#line9 {
+    background: #0B2027;
+    padding-top: 44px;
+    padding-bottom: 34px;
+}
+
+
+#line1_shape {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjgwIDE0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9IiNmZmZmZmYiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIj48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ij48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-size: 100% 150px;
+    height: 150px;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+#line3_shape {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjgwIDE0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9IiNGRkZGRkYiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIj48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ij48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-size: 100% 150px;
+    height: 150px;
+}
+#line3_shape_bottom {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxNTAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjgwIDE0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9IiNGRkZGRkYiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIj48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ij48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-size: 100% 150px;
+    height: 150px;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+#line8_shape {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjgwIDE0MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxnIGZpbGw9IiMyMzIyMzMiPgogICAgICAgIDxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIj48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ij48L3BhdGg+CiAgICAgICAgPHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ij48L3BhdGg+CiAgICA8L2c+Cjwvc3ZnPg==);
+    background-size: 100% 100px;
+    height: 100px;
+    transform: rotateX(180deg) rotateY(180deg);
+}
+
+.section-benefits {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.section-benefits .bloc-benefit {
+    margin-bottom: 80px;
+}
+.section-benefits .bloc-benefit:last-child {
+    margin-bottom: 0;
+}
+
+.bloc-image-bg-rounded {
+    background:#D6EFFF;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin-right:100px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.section2-text3-container {
+    margin-top:30px;
+    padding-bottom:80px;
+}
+#section2-text3 p,
+#section2-text3 ul {
+    margin-bottom: 30px;
+    font-size:26px;
+    line-height:32px;
+}
+#section2-text3 li {
+
+}
+.bloc-section3-text1 {
+    margin-top:87px;
+}
+#line3-separator .colcontainer {
+    padding: 100px 0;
+}
+
+@media (max-width: 979px) {
+    #col2-2 .colcontainer {
+        margin-top: 50px;
+    }
+    #line8 {
+        padding-bottom: 75px;
+    }
+    #col-coach-shadow .colcontainer {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #col1-1 .colcontainer {
+        padding-top: 0;
+    }
+    .bloc-text2 {
+        padding-bottom: 0 !important;
+    }
+    .bloc-button {
+        padding-top: 10px !important;
+    }
+    #col2-1 .colcontainer {
+        padding-bottom: 40px;
+    }
+    .bloc-section1-button {
+        padding-top: 0 !important;
+    }
+    #col2-2 .colcontainer {
+        margin-top: 20px;
+    }
+    .section2-text3-container {
+        padding-bottom:20px;
+    }
+    .bloc-section3-text1 {
+        margin-top: 40px;
+    }
+    .bloc-temoin1,
+    .bloc-temoin2 {
+        margin-bottom: 40px;
+    }
+    #testimonials {
+        padding-bottom: 50px;
+    }
+    #line3 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #line3_shape,
+    #line3_shape_bottom {
+        background-size: 100% 100px;
+        height: 100px;
+    }
+    #line3-separator .colcontainer {
+        padding: 50px 0;
+    }
+    .bloc-section4-image {
+        margin-top: 0 !important;
+    }
+    .bloc-image-bg-rounded {
+        margin-right: 0;
+    }
+    #col3-1 .colcontainer {
+        padding-top: 40px;
+    }
+    #line4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    #line8 {
+        padding-top: 0;
+        padding-bottom: 75px;
+    }
+    #col-coach-image .colcontainer {
+        margin-right: 0;
+    }
+    .bloc-section6-image {
+        margin: 0 !important;
+    }
+}
