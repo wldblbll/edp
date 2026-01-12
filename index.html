@@ -1,371 +1,555 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-    <title>Psychologue - Elise Dufour - Saint Bonnet pres Riom</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Psychologue - Elise Dufour - Saint Bonnet pres Riom">
-    <meta property="og:locale" content="fr_FR">
-
-                <link rel="canonical" href="https://www.elisedufourpsychologue.fr/">
+    
+    <!-- SEO Optimization -->
+    <title>Psychologue pour adultes - Elise Dufour - Saint Bonnet près Riom</title>
+    <meta name="description" content="Elise Dufour, psychologue pour adultes à Saint-Bonnet-près-Riom. Psychologie intégrative : thérapie cognitive, comportementale et émotionnelle. Consultation sur RDV.">
+    <meta name="keywords" content="psychologue, Saint-Bonnet-près-Riom, thérapie cognitive, TCC, adultes, anxiété, dépression, stress, burn-out">
+    <link rel="canonical" href="https://www.elisedufourpsychologue.fr/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Psychologue pour adultes - Elise Dufour - Saint Bonnet près Riom">
+    <meta property="og:description" content="Psychologue pour adultes spécialisée en thérapie cognitive et comportementale à Saint-Bonnet-près-Riom. Accompagnement personnalisé pour anxiété, stress, dépression.">
     <meta property="og:url" content="https://www.elisedufourpsychologue.fr/">
-    
-    
-        <meta name="robots" content="noindex" />
-    
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="assets/fontawesome.min.css" />
-<link rel="stylesheet" type="text/css" href="assets/optin.css" />
-<link rel="stylesheet" type="text/css" href="assets/main.min.css" />
-<link rel="stylesheet" type="text/css" href="assets/coaching-psy-main.css" />
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=ABeeZee:300,400,700&display=swap" />
-<style>
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.elisedufourpsychologue.fr/images/Kwinkie-300x300_2.png">
 
-    .page-container .bg-color-white { background: #ffffff !important; }
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=ABeeZee:300,400,700&display=swap" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee:300,400,700&display=swap">
 
-    .page-container .section.color-black { background: #0081a7 !important; }
-    .page-container .bg-color-black { background: #0081a7 !important; }
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-elise.png">
 
-        .page-container .btn.btn-color-sparkling { background: #f07167; color: white; }
-    .page-container .btn.btn-color-sparkling:hover, .page-container .btn.btn-color-sparkling:focus { background: #dc5d53; color: white; }
-    .page-container .btn.btn-color-sparkling:disabled { background: #dc5d53 !important; color: white; }
-    .page-container .color-sparkling { color: #f07167 !important; }
-    .page-container .bgcolor-sparkling { background: #f07167; }
-    .page-container .custom-bullet .icone i { color: #f07167; }
-    .page-container .border-top-sparkling { border-top-color: #f07167 !important; }
-    .page-container .border-bottom-sparkling { border-bottom-color: #f07167 !important; }
-    .page-container .border-sparkling { border-color: #f07167 !important; }
-    .page-container .color-sparkling-hover:hover { color: #f07167; }
-
-    .page-container h1,
-    .page-container h2,
-    .page-container h3,
-    .page-container h4,
-    .page-container h5,
-    .page-container h6,
-    .page-container button,
-    .page-container a.btn,
-    .page-container .countdown .countdown-amount,
-    .page-container .countdown .countdown-period {
-        font-family: 'ABeeZee', sans-serif !important;
+    <!-- Schema.org for Local SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Psychologist",
+      "name": "Elise Dufour",
+      "description": "Psychologue pour adultes spécialisée en thérapie cognitive, comportementale et émotionnelle à Saint-Bonnet-près-Riom",
+      "image": "https://www.elisedufourpsychologue.fr/images/Kwinkie-300x300_2.png",
+      "priceRange": "55€",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "5 Place de la République",
+        "addressLocality": "Saint-Bonnet-près-Riom",
+        "postalCode": "63200",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.9167",
+        "longitude": "3.1167"
+      },
+      "url": "https://www.elisedufourpsychologue.fr/",
+      "telephone": "+33786252547",
+      "email": "contact@elisedufourpsychologue.fr",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Saint-Bonnet-près-Riom"
+      },
+      "medicalSpecialty": "Psychologie intégrative - Thérapie cognitive et comportementale"
     }
-
-    .page-container p,
-    .page-container ul li,
-    .page-container p span,
-    .page-container a:not(.btn),
-    .page-container .faq-title,
-    .page-container .faq-content {
-        font-family: 'ABeeZee', sans-serif !important;
-    }
-
-    .page-container .bloc-button .btn {
-        color: #ffffff !important;
-    }
-    .page-container .bloc-section1-button .btn {
-        color: #ffffff !important;
-    }
-    .page-container .bloc-section3-rappel-button .btn {
-        color: #ffffff !important;
-    }
-    .page-container .bloc-section4-button .btn {
-        color: #ffffff !important;
-    }
-    .page-container .bloc-section6-button .btn {
-        color: #ffffff !important;
-    }
-</style>
-        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-elise.png">
-        <link rel="manifest" href="assets/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-
-        <script>var id_page = 11446;
-var branding = 'elise-dufour-psychologue';
-var id_branding = 665;</script>    <!-- Google Analytics Code -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W7BQ1NYJKF"></script>
-    <script type="text/javascript">
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-W7BQ1NYJKF');
     </script>
-    <!-- End Google Analytics Code -->
-</head>
-<body id="kt_body" class="offcanvas-right page-loading ">
-<div class="header-container">
-    <div class="header-container-overlay"></div>
-    <div class="page-container" id="container">
-    <div class="apps-header">
-        </div>
-    <div id="line-header" class="line has-shape bloc-header ">
-        <div class="bloc-line-header-bg-image bloc-with-bg-image " style="background-image: url('images/bg6.jpeg');" data-id="line-header-bg-image"></div>
-        <div class="line_overlay"></div>
 
-    <style type="text/css">
-        #line-header .line_overlay {
-                            background: linear-gradient(360deg, rgba(0, 112, 168, 0.82) 0%, rgba(0, 129, 168, 0.74) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0070a8', endColorstr='#0081a8',GradientType=1);
-                    }
+    <!-- Consolidated & Optimized CSS -->
+    <style>
+        :root {
+            --primary-color: #0081a7;
+            --secondary-color: #0070a8;
+            --accent-color: #f07167;
+            --accent-hover: #dc5d53;
+            --white: #ffffff;
+            --text-color: #333333;
+            --light-bg: #f8f9fa;
+        }
+
+        body {
+            font-family: 'ABeeZee', sans-serif;
+            color: var(--text-color);
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6, .btn, .nav-link {
+            font-family: 'ABeeZee', sans-serif !important;
+        }
+
+        /* Buttons matching original design */
+        .btn-sparkling {
+            background-color: var(--accent-color);
+            color: var(--white);
+            border: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .btn-sparkling:hover, .btn-sparkling:focus {
+            background-color: var(--accent-hover);
+            color: var(--white);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .color-sparkling { color: var(--accent-color) !important; }
+        .bg-sparkling { background-color: var(--accent-color) !important; }
+
+        /* Hero Section */
+        #hero {
+            position: relative;
+            background-image: url('images/bg6.jpeg');
+            background-size: cover;
+            background-position: center;
+            min-height: 80vh; /* Better for mobile */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--white);
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(360deg, rgba(0, 112, 168, 0.85) 0%, rgba(0, 129, 168, 0.75) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 80px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: 700;
+        }
+
+        /* Custom Bullet Points */
+        .feature-box {
+            background: var(--light-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateX(5px);
+        }
+
+        .feature-icon {
+            background-color: var(--accent-color);
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            border-radius: 50%;
+            border: 5px solid var(--white);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            max-width: 250px;
+            margin: 0 auto 20px;
+        }
+
+        /* Appointment Section (New Integrated Part) */
+        #appointment {
+            background-color: var(--light-bg);
+        }
+
+        .appointment-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            text-align: center;
+            margin-bottom: 20px;
+            height: 100%;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+        }
+
+        /* Back to top */
+        #back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: var(--accent-color);
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+            z-index: 1000;
+            border: none;
+        }
+        
+        #back-to-top:hover {
+            background: var(--accent-hover);
+            transform: translateY(-5px);
+        }
+        
+        #back-to-top.show {
+            display: flex;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .section-title { font-size: 2rem; }
+            section { padding: 50px 0; }
+        }
+        
+        /* Shape dividers */
+        .custom-shape-divider-bottom-1673448378 {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            overflow: hidden;
+            line-height: 0;
+            transform: rotate(180deg);
+        }
+
+        .custom-shape-divider-bottom-1673448378 svg {
+            position: relative;
+            display: block;
+            width: calc(100% + 1.3px);
+            height: 50px;
+        }
+
+        .custom-shape-divider-bottom-1673448378 .shape-fill {
+            fill: #FFFFFF;
+        }
     </style>
+</head>
+<body>
 
-    <div class="container">
-        
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" id="col1-1">
-                <div class="colcontainer">
-                                            <div class="element txt bloc bloc-text1 text-center " data-id="text1" style="padding-bottom:10px;">
-                            <h2 class="title-color-white"><span style="color: #ffffff;">Elise Dufour</span><strong><br><span style="color: #eeff00;">Psychologue</span></strong></h2>
-                        </div>
-                    
-                                    </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="colcontainer">
-                                            <div class="element button_link bloc bloc-button text-center " data-id="button" style="padding-top:35px;">
-                            <a class="btn btn-shadow btn-color-sparkling btn-lg" href="prise-de-rendez-vous.html"><span><strong><em>Prendre rendez-vous</em></strong></span></a>
-                        </div>
-                    
-                                            <div class="element txt bloc bloc-text3 text-center " data-id="text3">
-                            <p class="paragraph-color-white" style="font-size:20px;">✉️ contact@elisedufourpsychologue.fr<br />📍5 Pl de République, Saint-Bonnet-prés-Riom<br /><span style="font-family: ABeeZee, sans-serif !important;">📞 06 72 08 33 20<br /></span></p>
-                        </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="line1_shape" class="section_shape section_shape_bottom section_shape_over"></div>
-</div>
-
-<div id="line2" class="line line_theme1 section color-white bloc-section1 ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="colcontainer">
-                                    </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" id="col2-1">
-                <div class="colcontainer">
-                                    </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-            <div class="col-md-8 col-sm-8 col-xs-12">
-                <div class="colcontainer">
-                                            <div class="bloc bloc-video " data-id="video">
-                                                            <div class="video-responsive">
-    <iframe src="//www.youtube.com/embed/YQfs_fICWyQ?modestbranding=1&rel=0&showinfo=0&wmode=transparent" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    <div id="hackYt"></div>
-</div>                                                    </div>
-                    
-                    
-                                    </div>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12"></div>
-        </div>
-    </div>
-</div>
-
-<div id="line2-section2" class="line line_theme1 section color-white bloc-section2 ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" id="col2-2">
-                <div class="colcontainer">
-                                            <div class="element txt bloc bloc-section2-text1 " data-id="section2-text1">
-                            <h2 style="font-size:56px"><strong>Une pratique intégrative de la Psychologie</strong></h2>
-                        </div>
-                    
-                    
-                                            <div class="section2-text3-container">
-                            <div id="section2-text3" class="element txt bloc bloc-section2-text3 " data-id="section2-text3">
-                                <p><span style="color:black;">Je situe ma pratique dans le courant de la psychologie intégrative, c’est-à-dire que je cherche à intégrer divers éléments d’intervention afin de favoriser votre cheminement vers un mieux-être global.</span></p><p><span style="color:black;">Selon vos besoins, je fais donc appel aux ressources et méthodes de la <strong>thérapie cognitive</strong>, <strong>comportementale, émotionnelle </strong>et <strong>psychocorporelle</strong> (relaxation).</span></p><p><span style="color:black;">La combinaison de ces approches facilite la transformation de votre rapport à vous-même et aux autres </span><span style="background-color:transparent;color:#000000;">ainsi que la gestion de vos états émotionnels.</span></p><p style="text-align:justify;"> </p><h2><span style="color:black;"><strong>Quand consulter ?</strong></span></h2><p><span style="color:black;">Toute personne peut être confrontée à des doutes, des questionnements, ou un mal être se traduisant par des <strong>émotions et/ou pensées envahissantes</strong>.</span></p><p><span style="color:black;">Cela peut s’accompagner de différents <strong>symptômes</strong> ayant des répercussions sur le plan personnel, social ou professionnel.</span></p><p><span style="color:black;">La consultation auprès d’un psychologue, professionnel de la santé mentale est alors préconisée afin de vous accompagner vers un mieux-être.</span></p><h2><span style="color:black;"><strong>Les champs d'intervention</strong></span> </h2><ul style="list-style-type:disc;"><li><span style="color:black;">✅ L</span>es troubles anxieux (anxiété sociale, stress, phobie, TOC, attaque de panique), </li><li><span style="color:black;">✅ </span>Les trouble de l’humeur (dépression, morosité, bipolarité), </li><li><span style="color:black;">✅ </span>Une fragilité de la confiance en soi, de l’estime de soi et de l’affirmation de soi,</li><li><span style="color:black;">✅ </span>Des problématiques relationnelles, </li><li><span style="color:black;">✅ </span>Un stress professionnel, burn-out,</li><li><span style="color:black;">✅ </span>Des événements de vie douloureux tels que deuil, séparation, chômage, contexte covid, etc.</li><li><span style="color:black;">✅ </span>Un trouble du comportement alimentaire,</li><li><span style="color:black;">✅ </span>Un événement traumatique. </li></ul><h2><span style="color:black;"><strong>Les séances</strong></span></h2><p><span style="color:black;">Vous pourrez être reçu.e.s individuellement ou en famille, selon votre demande.</span></p><p><span style="color:black;">Lorsqu’un suivi s’avère nécessaire, nous déciderons ensemble du rythme des séances selon vos besoins et possibilités.</span></p><p><span style="color:black;">Les séances sont basées sur l’écoute respectueuse, attentive et sans jugement afin de <strong>créer une alliance constructive</strong> déterminante dans l’accompagnement psychologique. </span></p>                            </div>
-                        </div>
-                    
-                    <div class="position-relative">
-                                                    <div class="bloc bloc-section2-separator element separator bgcolor-sparkling " data-id="section2-separator"></div>
-                                            </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="line2-section3" class="line line_theme1 section color-white bloc-section3 ">
-    <div class="container">
-                    <div class="element txt bloc bloc-section3-text1 " data-id="section3-text1">
-                <h2 style="font-size:56px">En bref</h2>
-            </div>
-        
-        <div class="row">
-            <div class="col-md-7 col-sm-7 col-xs-12" id="col2-3">
-                <div class="colcontainer">
-                    <div class="maincontainer bullets">
-                                                                                                                    <div class="custom-bullet bg-rect bloc bloc-section3-bullet1 " data-id="section3-bullet1">
-                                    <div class="icone bgcolor-sparkling"><i class="fas fa-arrow-right"></i></div>
-                                    <div class="bullet-content">
-                                        <p>Un rapport de collaboration prenant appui sur une écoute empathique et bienveillante.</p>
-                                    </div>
-                                </div>
-                                                                                                                                                <div class="custom-bullet bg-rect bloc bloc-section3-bullet2 " data-id="section3-bullet2">
-                                    <div class="icone bgcolor-sparkling"><i class="fas fa-arrow-right"></i></div>
-                                    <div class="bullet-content">
-                                        <p>Un accompagnement s’adaptant à chaque personne et à sa situation particulière.</p>
-                                    </div>
-                                </div>
-                                                                                                                                                <div class="custom-bullet bg-rect bloc bloc-section3-bullet3 " data-id="section3-bullet3">
-                                    <div class="icone bgcolor-sparkling"><i class="fas fa-arrow-right"></i></div>
-                                    <div class="bullet-content">
-                                        <p>Une approche thérapeutique basée sur des méthodes validées scientifiquement.</p>
-                                    </div>
-                                </div>
-                                                                                                                                                                                </div>
-                </div>
-            </div>
-
-            <div class="col-md-5 col-sm-5 col-xs-12" id="col-price">
-                <div class="col">
-                    <div class="colcontainer">
-                                                    <div class="element txt bloc bloc-section3-rappel-text1 text-center " data-id="section3-rappel-text1" style="margin-bottom:0">
-                                <h2 style="font-size:44px;">En pratique</h2>
-                            </div>
-                        
-                                                    <div class="bloc bloc-section3-rappel-separator element separator bgcolor-sparkling " data-id="section3-rappel-separator"></div>
-                        
-                                                    <div class="element txt bloc bloc-section3-rappel-text2 text-center " data-id="section3-rappel-text2" style="padding-bottom:10px; margin-bottom:0">
-                                <p class="mb-0" style="font-size:20px;">Consultation et téléconsultation (45min) : 55 euros. <br /><br />La sécurité sociale ne rembourse pas les consultations auprès de psychologue mais certaines mutuelles assurent une prise en charge.</p>
-                            </div>
-                        
-                        
-                                                    <div class="element button_link bloc bloc-section3-rappel-button text-center " data-id="section3-rappel-button" style="margin-bottom:10px;padding-top:18px;">
-                                <a class="btn btn-shadow btn-color-sparkling btn-lg" href="prise-de-rendez-vous.html"><span><strong><em>Prendre rendez-vous</em></strong></span></a>
-                            </div>
-                        
-                                            </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div id="line3" class="line line_theme2 has-shape section bloc-section4 ">
-    <div id="line3_shape" class="section_shape section_shape_top"></div>
-
-    <div class="container">
-        <div class="row d-flex flex-row justify-content-center" id="section4">
-                            <div class="col-md-4 col-sm-4 col-xs-12 pr-0 bloc bloc-section4-image text-center " data-id="section4-image" style="margin-top:20px;">
-                    <div class="colcontainer">
-                        <img class="image" src="images/Kwinkie-300x300_2.png">
-                    </div>
-                </div>
+    <!-- Header / Hero Section -->
+    <header id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="display-3 font-weight-bold mb-3">Elise Dufour<br><span style="color: #eeff00; font-size: 0.8em;">Psychologue</span></h1>
             
-            <div class="col-md-8 col-sm-8 col-xs-12">
-                <div class="colcontainer">
-                                            <div class="element txt bloc bloc-section4-text1 " data-id="section4-text1">
-                            <h2 class="title-color-white"><strong>Elise Dufour</strong></h2>
-                        </div>
-                    
-                                            <div class="element txt bloc bloc-section4-text2 " data-id="section4-text2">
-                            <h3 class="title-color-white"><em>Psychologue diplomée avec 10 années d'experience</em></h3>
-                        </div>
-                    
-                                            <div class="element txt bloc bloc-section4-text3 " data-id="section4-text3">
-                            <p class="paragraph-color-white" style="font-size:20px;">Formée à l’université de Lyon puis de Clermont-Ferrand, j’ai obtenu mon diplôme de psychologue en 2012.<br><br>J’exerce depuis 10 ans dans les secteurs de la psychiatrie et du médico-social.<br><br>Ces expériences m’ont amenée à travailler auprès de diverses populations : enfants, adolescents et adultes, me conférant des capacités adaptatives face à chaque personne et à sa situation.</p>
-                        </div>
-                    
-                                            <div class="element txt bloc bloc-section4-text4 " data-id="section4-text4" style="margin-top: 30px;">
-                            <p class="paragraph-color-white" style="font-size:20px;"><strong>Numéro ADELI : 39302633</strong></p>
-                        </div>
-                    
-                                            <div class="bloc bloc-section4-logos bloc-image-bg-rounded text-center bg-color-white " data-id="section4-logos">
-                            <img class="image" src="images/350x50kwinkie(1).png" style="max-width: 350px">
-                        </div>
-                                    </div>
+            <div class="mb-5">
+                <a href="#appointment" class="btn btn-sparkling btn-lg px-5 py-3 rounded-pill font-weight-bold shadow">
+                    Prendre rendez-vous
+                </a>
+            </div>
+
+            <div class="contact-info bg-dark-transparent p-3 rounded d-inline-block" style="background: rgba(0,0,0,0.3);">
+                <p class="mb-0 text-white lead">
+                    <i class="fas fa-envelope mr-2"></i> dufourelise.contact@gmail.com<br>
+                    <i class="fas fa-map-marker-alt mr-2"></i> 5 Place de la République, Saint-Bonnet-près-Riom<br>
+                    <i class="fas fa-phone mr-2"></i> 07 86 25 25 47
+                </p>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12" id="col3-1">
-                <div class="colcontainer">
-                    
-                                    </div>
-            </div>
+        
+        <div class="custom-shape-divider-bottom-1673448378">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
         </div>
-    </div>
+    </header>
 
-    <div id="line3_shape_bottom" class="section_shape section_shape_bottom"></div>
-</div>
-
-
-<div id="line8" class="line line-theme1 has-shape section color-white bloc-section6 ">
-    <div class="container">
-        <div class="row d-flex flex-row justify-content-center align-items-end">
-                        <div id="col-coach-image" class="col-md-5 col-sm-5 col-xs-12 element image bloc bloc-section6-image text-center " data-id="section6-image">
-                <div class="colcontainer p-0">
-                    <div style="margin-left:-21px; margin-right:-19px;">
-                        <img class="image" src="images/560x800 Kwinkies 2-1658489402-500x700.png">
+    <!-- Video Section -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="embed-responsive embed-responsive-16by9 shadow-lg rounded">
+                        <iframe class="embed-responsive-item" src="//www.youtube.com/embed/YQfs_fICWyQ?modestbranding=1&rel=0&showinfo=0" title="Présentation Elise Dufour Psychologue" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Pratique & Approche -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title text-primary">Une pratique intégrative</h2>
+            </div>
             
-            <div class="col-md-7 col-sm-7 col-xs-12" id="col-coach-shadow">
-                <div class="col">
-                    <div class="colcontainer">
-                                                    <div class="element txt bloc bloc-section6-text1 text-center " data-id="section6-text1" style="margin-top:20px;padding-bottom:5px;">
-                                <h2 style="font-size:56px; line-height:1;"><strong>Pour prendre rdv</strong></h2>
-                            </div>
-                        
-                                                    <div class="bloc bloc-section6-separator element separator bgcolor-sparkling " data-id="section6-separator"></div>
-                        
-                                                    <div class="element txt bloc bloc-section6-text2 text-center " data-id="section6-text2" style="padding-top:20px;padding-bottom:18px;">
-                                <p style="font-size:24px;line-height:1.3;">En cliquant sur le bouton ci-dessous, vous serez redirigé vers la plateforme doctolib de prise de rendez-vous.<br><br>En cas de difficulté, vous pouvez également prendre rendez-vous par téléphone ou email.</p>
-                            </div>
-                        
-                                                    <div class="element button_link bloc bloc-section6-button text-center " data-id="section6-button" style="padding-top:17px;">
-                                <a class="btn btn-shadow btn-color-sparkling btn-lg" href="prise-de-rendez-vous.html"><span><strong><em>Prendre rendez-vous</em></strong></span></a>
-                            </div>
-                        
-                                                    <div class="element txt bloc bloc-section6-text3 text-center " data-id="section6-text3">
-                                <p style="font-size:20px;">✉️ contact@elisedufourpsychologue.fr<br />📍5 Pl de République, Saint-Bonnet-prés-Riom<br /><span style="font-family: ABeeZee, sans-serif !important;">📞 06 72 08 33 20<br /></span></p>
-                            </div>
-                                            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="lead text-justify">
+                        Je situe ma pratique dans le courant de la psychologie intégrative, c'est-à-dire que je cherche à intégrer divers éléments d'intervention afin de favoriser votre cheminement vers un mieux-être global.
+                    </p>
+                    <p class="text-justify">
+                        Selon vos besoins, je fais appel aux ressources et méthodes de la <strong>thérapie cognitive</strong>, <strong>comportementale (TCC)</strong>, <strong>émotionnelle</strong> et <strong>psychocorporelle</strong> (relaxation).
+                    </p>
+                    <p class="text-justify">
+                        La combinaison de ces approches facilite la transformation de votre rapport à vous-même et aux autres ainsi que la gestion de vos états émotionnels.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-sm mt-4 mt-lg-0">
+                        <div class="card-body">
+                            <h3 class="h4 text-primary mb-3"><i class="fas fa-question-circle mr-2"></i> Quand consulter ?</h3>
+                            <p>Toute personne confrontée à :</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Doutes et questionnements</li>
+                                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Mal-être persistant</li>
+                                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Émotions ou pensées envahissantes</li>
+                                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Symptômes impactant la vie sociale/pro</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div id="line8_shape" class="section_shape section_shape_bottom section_shape_over"></div>
-</div>
+    <!-- Champs d'intervention -->
+    <section>
+        <div class="container">
+            <h2 class="section-title text-center text-primary mb-5">Les champs d'intervention</h2>
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                        <div>Troubles anxieux (stress, phobie, TOC, panique)</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-cloud-rain"></i></div>
+                        <div>Troubles de l'humeur (dépression, bipolarité)</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-user-shield"></i></div>
+                        <div>Confiance et estime de soi</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-users"></i></div>
+                        <div>Problématiques relationnelles</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
+                        <div>Stress professionnel, burn-out</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-heart-broken"></i></div>
+                        <div>Deuil, séparation, chômage</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-utensils"></i></div>
+                        <div>Troubles du comportement alimentaire</div>
+                    </div>
+                    <div class="feature-box">
+                        <div class="feature-icon"><i class="fas fa-notes-medical"></i></div>
+                        <div>Événements traumatiques</div>
+                    </div>
+                </div>
+            </div>
 
-<div id="line-footer" class="line bloc-footer bloc-footer-dark section ">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="colcontainer">
-                                    </div>
+            <div class="alert alert-warning mt-4 text-center shadow-sm" role="alert">
+                <i class="fas fa-exclamation-triangle mr-2"></i> <strong>Cabinet réservé aux adultes uniquement.</strong>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="colcontainer">
-                                            <div class="element txt bloc bloc-footer-text " data-id="footer-text">
-                            <p class="paragraph-color-white" style="text-align:center;">© 2022 Elise Dufour Psychologue - Tous Droits Réservés</p>                        </div>
-                                    </div>
+    </section>
+
+    <!-- Bio Section -->
+    <section class="text-white" style="background-color: var(--secondary-color);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="images/Kwinkie-300x300_2.png" alt="Elise Dufour Psychologue" class="profile-img mb-3" loading="lazy">
+                    <h3 class="font-weight-bold">Elise Dufour</h3>
+                </div>
+                <div class="col-md-8">
+                    <h2 class="mb-4">Mon parcours</h2>
+                    <p class="lead">Psychologue diplômée avec 14 années d'expérience</p>
+                    <p>Formée à l'université de Lyon puis de Clermont-Ferrand, j'ai obtenu mon diplôme de psychologue en 2012. J'exerce depuis 14 ans dans les secteurs de la psychiatrie et du médico-social.</p>
+                    <p>Ces expériences m'ont conféré des capacités adaptatives face à chaque personne et à sa situation.</p>
+                    <p class="font-weight-bold mt-4">Numéro ADELI : 39302633</p>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-    </div></div>
+    </section>
 
+    <!-- Les Séances - En bref -->
+    <section>
+        <div class="container">
+            <h2 class="section-title text-center text-primary mb-5">Les séances en bref</h2>
+            
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="h-100 p-4 border rounded shadow-sm">
+                        <i class="fas fa-hands-helping fa-3x text-primary mb-3"></i>
+                        <h4>Collaboration</h4>
+                        <p>Un rapport prenant appui sur une écoute empathique et bienveillante.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="h-100 p-4 border rounded shadow-sm">
+                        <i class="fas fa-user-check fa-3x text-primary mb-3"></i>
+                        <h4>Adaptabilité</h4>
+                        <p>Un accompagnement s'adaptant à chaque personne et à sa situation particulière.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="h-100 p-4 border rounded shadow-sm">
+                        <i class="fas fa-microscope fa-3x text-primary mb-3"></i>
+                        <h4>Méthode</h4>
+                        <p>Une approche thérapeutique basée sur des méthodes validées scientifiquement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Prise de rendez-vous (Integrated) -->
+    <section id="appointment" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title text-primary">Prendre rendez-vous</h2>
+                <p class="lead">Choisissez votre motif de consultation</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-5 mb-4">
+                    <div class="appointment-card">
+                        <i class="fas fa-user-plus fa-3x color-sparkling mb-3"></i>
+                        <h3>Première consultation</h3>
+                        <p class="text-muted">Durée : 1 heure</p>
+                        <p class="h4 text-primary font-weight-bold">65 €</p>
+                        <hr>
+                        <p>Pour faire connaissance, évaluer vos besoins et définir ensemble le cadre de l'accompagnement.</p>
+                        <a href="https://www.doctolib.fr/psychologue/riom/elise-dufour/booking/availabilities?motiveIds[]=6391521&placeId=practice-318002&profileSkipped=true&profile_skipped=true&specialityId=14&telehealth=false" target="_blank" class="btn btn-sparkling btn-lg btn-block mt-3">
+                            Réserver sur Doctolib
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-5 mb-4">
+                    <div class="appointment-card">
+                        <i class="fas fa-user-clock fa-3x color-sparkling mb-3"></i>
+                        <h3>Consultation de suivi</h3>
+                        <p class="text-muted">Durée : 45 minutes</p>
+                        <p class="h4 text-primary font-weight-bold">55 €</p>
+                        <hr>
+                        <p>Pour poursuivre le travail thérapeutique engagé lors des séances précédentes.</p>
+                        <a href="https://www.doctolib.fr/psychologue/riom/elise-dufour/booking/availabilities?motiveIds[]=6391519&placeId=practice-318002&specialityId=14&telehealth=false" target="_blank" class="btn btn-sparkling btn-lg btn-block mt-3">
+                            Réserver sur Doctolib
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-8 text-center bg-white p-4 rounded shadow-sm">
+                    <h4><i class="fas fa-info-circle text-info"></i> Informations pratiques</h4>
+                    <p class="lead mt-2">Tarifs : <strong>65 euros</strong> (première consultation) | <strong>55 euros</strong> (suivi)</p>
+                    <p class="text-muted small">La sécurité sociale ne rembourse pas les consultations de psychologue, mais certaines mutuelles assurent une prise en charge.</p>
+                    <hr>
+                    <p>En cas de difficulté pour la réservation en ligne :</p>
+                    <p>
+                        <i class="fas fa-envelope"></i> <a href="mailto:contact@elisedufourpsychologue.fr">contact@elisedufourpsychologue.fr</a><br>
+                        <i class="fas fa-phone"></i> 07 86 25 25 47
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="p-0">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2776.874130006323!2d3.114515315057032!3d45.91891597910906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f71b123456789b%3A0x123456789abcdef!2s5%20Pl.%20de%20la%20R%C3%A9publique%2C%2063200%20Saint-Bonnet-pr%C3%A8s-Riom!5e0!3m2!1sfr!2sfr!4v1625667890123!5m2!1sfr!2sfr" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <h4 class="mb-4">Elise Dufour Psychologue</h4>
+            <p>
+                <i class="fas fa-map-marker-alt"></i> 5 Place de la République, Saint-Bonnet-près-Riom<br>
+                <i class="fas fa-envelope"></i> dufourelise.contact@gmail.com | <i class="fas fa-phone"></i> 07 86 25 25 47
+            </p>
+            <div class="mt-4 pt-3 border-top border-secondary">
+                <small>&copy; 2026 Elise Dufour Psychologue - Tous Droits Réservés. Cabinet pour adultes uniquement.</small>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top" aria-label="Retour en haut de la page" title="Retour en haut">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script>
+        // Back to top button logic
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('show');
+            } else {
+                backToTopButton.classList.remove('show');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>
